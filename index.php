@@ -22,38 +22,38 @@
         <div id="userForm" style="padding-top: 20px">
             <form action="includes/submit.php" method="POST"> 
                 <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">First Name</label>
+                    <label for="text" class="col-sm-2 col-form-label">First Name</label>
                     <div class="col-sm-10">
-                        <input type="email" name="first" class="form-control" id="inputEmail3" placeholder="Enter your first name">
+                        <input type="text" name="first" class="form-control" id="text" placeholder="Enter your first name">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Last name</label>
+                    <label for="text" class="col-sm-2 col-form-label">Last name</label>
                     <div class="col-sm-10">
-                        <input type="password" name="last" class="form-control" id="inputPassword3" placeholder="Enter your last name">
+                        <input type="text" name="last" class="form-control" id="text" placeholder="Enter your last name">
                     </div>
                 </div>
                 <fieldset class="form-group">
                     <div class="row">
                         <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
                         <div class="col-sm-10">
-                            <div class="form-check"  name="gender" >
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                    value="option1" checked>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" id="gridRadios1"
+                                    value="female" checked>
                                 <label class="form-check-label" for="gridRadios1">
                                     Female
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                    value="option2">
+                                <input class="form-check-input" type="radio" name="gender" id="gridRadios2"
+                                    value="male">
                                 <label class="form-check-label" for="gridRadios2">
                                     Male
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
-                                    value="option3">
+                                <input class="form-check-input" type="radio" name="gender" id="gridRadios3"
+                                    value="other">
                                 <label class="form-check-label" for="gridRadios3">
                                     Other
                                 </label>
@@ -65,7 +65,7 @@
                     <div class="col-sm-2">Newsletter</div>
                     <div class="col-sm-10">
                         <div class="form-check">
-                            <input class="form-check-input"  name="newsletter" type="checkbox" id="gridCheck1">
+                            <input class="form-check-input" name="newsletter" value="1" type="checkbox" id="gridCheck1">
                         </div>
                     </div>
                 </div>
